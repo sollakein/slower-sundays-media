@@ -1,0 +1,30 @@
+name: Fetch media
+on:
+  push:
+    paths: ["fetch/list.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download each file in fetch/list.txt (one "url<TAB>path" per line)
+        run: |
+          set -e
+          while IFS=$'\t' read -r url path; do
+            [ -z "$url" ] && continue
+            case "$url" in \#*) continue;; esac
+            case "$path" in assets/*) ;; *) echo "skip $path (outside assets/)"; continue;; esac
+            mkdir -p "$(dirname "$path")"
+            curl -fsSL -A "SlowerSundaysMediaFetch/1.0 (hello@slowersundays.com)" -o "$path" "$url"
+            echo "ok $path"
+          done < fetch/list.txt
+      - name: Commit
+        run: |
+          git config user.name "media-fetch"
+          git config user.email "hello@slowersundays.com"
+          git add assets
+          git diff --cached --quiet || git commit -m "Fetch media from fetch/list.txt"
+          git push
