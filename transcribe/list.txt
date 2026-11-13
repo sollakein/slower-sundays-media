@@ -1,0 +1,2 @@
+# one audio path per line (must start with assets/)
+assets/wv/audio/voice-ethan.mp3
