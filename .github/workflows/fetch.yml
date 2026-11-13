@@ -18,8 +18,11 @@ jobs:
             case "$url" in \#*) continue;; esac
             case "$path" in assets/*) ;; *) echo "skip $path (outside assets/)"; continue;; esac
             mkdir -p "$(dirname "$path")"
-            curl -fsSL -A "SlowerSundaysMediaFetch/1.0 (hello@slowersundays.com)" -o "$path" "$url"
-            echo "ok $path"
+            if curl -fsSL --retry 2 -A "SlowerSundaysMediaFetch/1.0 (hello@slowersundays.com)" -o "$path" "$url"; then
+              echo "ok $path"
+            else
+              echo "FAIL $path"; rm -f "$path"
+            fi
           done < fetch/list.txt
       - name: Commit
         run: |

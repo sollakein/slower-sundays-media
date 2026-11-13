@@ -1,1 +1,12 @@
 # url<TAB>path (path must start with assets/)
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/e826f915ec174e3a8c99b216c737b131/generate_speech_operation_a7f43cc17303.mp3	assets/wv/audio/voice-grant.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/96e2cb5aa7c9413b8412ba4936e7f64c/generate_speech_operation_24277721b8a1.mp3	assets/wv/audio/voice-harper.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/796329f0e57b4d0d9307d3f3e836c7ff/generate_speech_operation_884be5a66abf.mp3	assets/wv/audio/voice-ethan.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/0535a4fe95a44633a6eb256ecc98d48b/generate_music_operation_b22a61621c45.mp3	assets/wv/audio/music-suno.mp3
+https://images.unsplash.com/photo-1708154718762-3867e773f3d6?w=2400&q=85&fm=jpg	assets/wv/photos/morgantown.jpg
+https://upload.wikimedia.org/wikipedia/commons/4/4c/Queen_Street_Martinsburg_West_Virginia.jpg	assets/wv/photos/eastern-panhandle.jpg
+https://upload.wikimedia.org/wikipedia/commons/f/fd/Lewisburg,_Greenbrier_CO,_WV.jpg	assets/wv/photos/greenbrier-valley.jpg
+https://upload.wikimedia.org/wikipedia/commons/0/05/Elkins_West_Virginia_Davis_Avenue.jpg	assets/wv/photos/elkins.jpg
+https://www.nps.gov/npgallery/GetAsset/3f422525-8835-462a-8cbf-8d701c066ac0/original.jpg	assets/wv/photos/new-river-gorge.jpg
+https://upload.wikimedia.org/wikipedia/commons/b/b3/The_West_Virginia_Capitol_in_Charleston_LCCN2015631770.jpg	assets/wv/photos/charleston-capitol.jpg
+https://upload.wikimedia.org/wikipedia/commons/9/9b/CHARLESTON%2C_CHIEF_CITY_OF_THE_KANAWHA_VALLEY%2C_A_MAJOR_WORLD_CHEMICAL_CENTER_-_NARA_-_551188.jpg	assets/wv/photos/charleston-1973.jpg
