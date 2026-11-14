@@ -4,3 +4,6 @@ assets/w1/audio/mon-elio-v2.mp3
 assets/w1/audio/wed-tulsa-v2.mp3
 assets/w1/audio/fri-brianna-v2.mp3
 assets/w1/audio/sun-greenbrier-v2.mp3
+assets/w1/audio/tue-tag.mp3
+assets/w1/audio/thu-tag.mp3
+assets/w1/audio/sat-tag.mp3
