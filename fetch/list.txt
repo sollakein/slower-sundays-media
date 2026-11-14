@@ -15,3 +15,13 @@ https://images.unsplash.com/photo-1570933657058-401caa810e60?w=3000&q=85&fm=jpg	
 https://images.unsplash.com/photo-1557418223-39e7931d52af?w=3000&q=85&fm=jpg	assets/brand/main-street-2.jpg
 https://images.unsplash.com/photo-1725803884849-b832a0639931?w=3000&q=85&fm=jpg	assets/brand/trail.jpg
 https://images.unsplash.com/photo-1730154838368-c37b1fdebcf6?w=2400&q=85&fm=jpg	assets/brand/moving-boxes.jpg
+https://api.census.gov/data/2024/acs/acs5?get=NAME,B25064_001E,B25077_001E,B19013_001E&for=place:63000&in=state:53	assets/data/acs5-2024-seattle.json
+https://api.census.gov/data/2024/acs/acs5?get=NAME,B25064_001E,B25077_001E,B19013_001E&for=place:71000&in=state:18	assets/data/acs5-2024-south-bend.json
+https://api.census.gov/data/2024/acs/acs5?get=NAME,B25064_001E,B25077_001E,B19013_001E&for=place:75000&in=state:40	assets/data/acs5-2024-tulsa.json
+https://api.census.gov/data/2024/acs/acs5?get=NAME,B25064_001E,B25077_001E,B19013_001E&for=place:48006&in=state:21	assets/data/acs5-2024-louisville.json
+https://api.census.gov/data/2024/acs/acs5?get=NAME,B25064_001E,B25077_001E,B19013_001E&for=place:24580&in=state:54	assets/data/acs5-2024-elkins.json
+https://api.census.gov/data/2024/acs/acs5?get=NAME,B25064_001E,B25077_001E,B19013_001E&for=place:71000&in=state:20	assets/data/acs5-2024-topeka.json
+https://api.census.gov/data/2024/acs/acs5?get=NAME,B25064_001E,B25077_001E,B19013_001E&for=place:68000&in=state:06	assets/data/acs5-2024-san-jose.json
+https://api.census.gov/data/2024/acs/acs5?get=NAME,B25064_001E,B25077_001E,B19013_001E&for=place:40000&in=state:32	assets/data/acs5-2024-las-vegas.json
+https://api.census.gov/data/2024/acs/acs5?get=NAME,B25064_001E,B25077_001E,B19013_001E&for=place:44000&in=state:06	assets/data/acs5-2024-los-angeles.json
+https://api.census.gov/data/2024/acs/acs5?get=NAME,B25064_001E,B25077_001E,B19013_001E&for=state:06	assets/data/acs5-2024-california.json
