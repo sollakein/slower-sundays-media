@@ -30,3 +30,7 @@ https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/699c8697f9
 https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/c0e0073a49e646c5b6cbbfff0a55f527/generate_speech_operation_a4e2622b55fe.mp3	assets/w1/audio/fri-brianna.mp3
 https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/ecec08a84a834fad92203b0b001d2071/generate_speech_operation_bc97d0aba628.mp3	assets/w1/audio/sun-greenbrier.mp3
 https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/0ad3fb1dc610439393b58c852a99f50f/generate_music_operation_e841681c83b4.mp3	assets/w1/audio/music-sunday.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/da0bce94a9894467b7d4d310344c650a/generate_speech_operation_1e12005d6a65.mp3	assets/w1/audio/mon-elio-v2.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/79c7e5ac46c242c2af5134c129b3bd3e/generate_speech_operation_940d4a4ad849.mp3	assets/w1/audio/wed-tulsa-v2.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/8c79cbee81384b338c23873bbd72e439/generate_speech_operation_684ee499a205.mp3	assets/w1/audio/fri-brianna-v2.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/e3b5ae953b9c46b7abb16ac274d419a1/generate_speech_operation_b280e57a3732.mp3	assets/w1/audio/sun-greenbrier-v2.mp3
