@@ -25,3 +25,8 @@ https://fred.stlouisfed.org/data/MEDLISPRI31080.txt	assets/data/fred-medlispri-l
 https://fred.stlouisfed.org/data/MEDLISPRI29820.txt	assets/data/fred-medlispri-las-vegas.txt
 https://fred.stlouisfed.org/data/MEDLISPRI21180.txt	assets/data/fred-medlispri-elkins.txt
 https://fred.stlouisfed.org/data/MEDLISPRI41860.txt	assets/data/fred-medlispri-san-francisco.txt
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/5500eb66586147a0a21de6b2b193947e/generate_speech_operation_a66501576069.mp3	assets/w1/audio/mon-elio.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/699c8697f9844b998df2ba38febf2440/generate_speech_operation_1fed5f92da50.mp3	assets/w1/audio/wed-tulsa.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/c0e0073a49e646c5b6cbbfff0a55f527/generate_speech_operation_a4e2622b55fe.mp3	assets/w1/audio/fri-brianna.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/ecec08a84a834fad92203b0b001d2071/generate_speech_operation_bc97d0aba628.mp3	assets/w1/audio/sun-greenbrier.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/0ad3fb1dc610439393b58c852a99f50f/generate_music_operation_e841681c83b4.mp3	assets/w1/audio/music-sunday.mp3
