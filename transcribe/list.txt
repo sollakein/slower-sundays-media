@@ -1,6 +1,6 @@
 # one audio path per line (must start with assets/)
 assets/wv/audio/voice-ethan.mp3
-assets/w1/audio/mon-elio.mp3
-assets/w1/audio/wed-tulsa.mp3
-assets/w1/audio/fri-brianna.mp3
-assets/w1/audio/sun-greenbrier.mp3
+assets/w1/audio/mon-elio-v2.mp3
+assets/w1/audio/wed-tulsa-v2.mp3
+assets/w1/audio/fri-brianna-v2.mp3
+assets/w1/audio/sun-greenbrier-v2.mp3
