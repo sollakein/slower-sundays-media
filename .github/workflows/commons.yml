@@ -1,0 +1,55 @@
+name: Commons search
+on:
+  push:
+    paths: ["fetch/commons.txt"]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  commons:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Search Wikimedia Commons and download candidates with license metadata
+        run: |
+          python3 - <<'PY'
+          import json, os, re, urllib.parse, urllib.request
+          UA = {"User-Agent": "SlowerSundaysMediaFetch/1.0 (hello@slowersundays.com)"}
+          def api(**p):
+              p.update(format="json")
+              u = "https://commons.wikimedia.org/w/api.php?" + urllib.parse.urlencode(p)
+              return json.load(urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=60))
+          ok_lic = re.compile(r"(cc0|public domain|pd|cc by(-sa)? ?[1-4]|cc-by(-sa)?-[1-4])", re.I)
+          for line in open("fetch/commons.txt"):
+              line = line.strip()
+              if not line or line.startswith("#"): continue
+              slug, query = line.split("\t", 1)
+              out = f"assets/commons/{slug}"
+              if os.path.isdir(out): print("skip", slug); continue
+              os.makedirs(out, exist_ok=True)
+              r = api(action="query", generator="search", gsrsearch=query + " filetype:bitmap", gsrnamespace=6, gsrlimit=20,
+                      prop="imageinfo", iiprop="url|extmetadata|size", iiurlwidth=2200)
+              pages = sorted(r.get("query", {}).get("pages", {}).values(), key=lambda p: p.get("index", 99))
+              meta, n = [], 0
+              for p in pages:
+                  ii = (p.get("imageinfo") or [{}])[0]; em = ii.get("extmetadata", {})
+                  lic = em.get("LicenseShortName", {}).get("value", "")
+                  if not ok_lic.search(lic) or ii.get("width", 0) < 1600: continue
+                  n += 1; fn = f"{out}/{n:02d}.jpg"
+                  try:
+                      urllib.request.urlretrieve if False else None
+                      data = urllib.request.urlopen(urllib.request.Request(ii["thumburl"], headers=UA), timeout=60).read()
+                      open(fn, "wb").write(data)
+                  except Exception as e:
+                      print("fail", p["title"], e); n -= 1; continue
+                  artist = re.sub("<[^>]+>", "", em.get("Artist", {}).get("value", "")).strip()
+                  meta.append(dict(file=fn, title=p["title"], page=ii.get("descriptionurl"), artist=artist, license=lic,
+                                   desc=re.sub("<[^>]+>", "", em.get("ImageDescription", {}).get("value", ""))[:200]))
+                  if n >= 6: break
+              json.dump(meta, open(f"{out}/meta.json", "w"), indent=1)
+              print(slug, n)
+          PY
+      - name: Commit
+        run: |
+          git config user.name "media-fetch"; git config user.email "hello@slowersundays.com"
+          git add assets; git diff --cached --quiet || git commit -m "Commons candidates"; git push

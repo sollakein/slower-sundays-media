@@ -1,0 +1,12 @@
+seattle	Seattle skyline Space Needle
+south-bend	South Bend Indiana downtown
+south-bend-river	St. Joseph River South Bend
+tulsa	Tulsa Oklahoma skyline
+tulsa-gathering	Gathering Place Tulsa
+atlanta	Atlanta skyline
+portland	Portland Oregon skyline
+muncie	Muncie Indiana downtown
+muncie-house	Muncie Indiana house street
+greenbrier-trail	Greenbrier River Trail
+greenbrier-river	Greenbrier River West Virginia
+marlinton	Marlinton West Virginia
