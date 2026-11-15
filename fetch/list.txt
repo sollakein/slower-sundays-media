@@ -58,3 +58,9 @@ https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/911a7f5e90
 https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/c733bb48ecc1476f812d85417b189199/generate_speech_operation_1c5d7730b097.mp3	assets/w4/audio/wed-texarkana.mp3
 https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/95766351868c40e0bbc31c46b159eeb5/generate_speech_operation_cb20abfa2849.mp3	assets/w4/audio/fri-ashley.mp3
 https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/8e6d99818dc4405cba9e6758df58f083/generate_speech_operation_3c3cf1f70673.mp3	assets/w4/audio/sun-gap.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/d4f65998ee7f415480af199779da5e89/generate_speech_operation_89fcae04932b.mp3	assets/w3/audio/tue-tag.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/a066fe73bea646669b5c5564816feafd/generate_speech_operation_859139b2d700.mp3	assets/w3/audio/thu-tag.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/f9f597878e4a47a3b0f201a4f6827549/generate_speech_operation_857ab0dc320a.mp3	assets/w3/audio/sat-tag.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/9549ca6d253441a1b3942d12893e4015/generate_speech_operation_19b0aad675e8.mp3	assets/w4/audio/tue-tag.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/173ee8744f2d42c4a093a47895a5f2f0/generate_speech_operation_221a17e33c14.mp3	assets/w4/audio/thu-tag.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/2e90eba1dec64649811a2244ebdd6225/generate_speech_operation_61beb9723b4b.mp3	assets/w4/audio/sat-tag.mp3
