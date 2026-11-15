@@ -44,3 +44,9 @@ https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/feff0e617a
 https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/710f9fd5d19245e5b932659ca5b68486/generate_speech_operation_e7c508768b41.mp3	assets/w2/audio/tue-tag.mp3
 https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/57cf6e9ab9274dc585eab6e58e9a81a0/generate_speech_operation_f1fbe86f6a7c.mp3	assets/w2/audio/thu-tag.mp3
 https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/6ebecc4497aa4b2bab8449c9bdb906f2/generate_speech_operation_4619c3e66cb1.mp3	assets/w2/audio/sat-tag.mp3
+https://fred.stlouisfed.org/data/MEDLISPRI16980.txt	assets/data/fred-medlispri-chicago.txt
+https://fred.stlouisfed.org/data/MEDLISPRI26900.txt	assets/data/fred-medlispri-indianapolis.txt
+https://fred.stlouisfed.org/data/MEDLISPRI45500.txt	assets/data/fred-medlispri-texarkana.txt
+https://fred.stlouisfed.org/data/MEDLISPRI25180.txt	assets/data/fred-medlispri-hagerstown-martinsburg.txt
+https://fred.stlouisfed.org/data/MEDLISPRI11260.txt	assets/data/fred-medlispri-anchorage.txt
+https://fred.stlouisfed.org/data/MEDLISPRI19740.txt	assets/data/fred-medlispri-denver.txt

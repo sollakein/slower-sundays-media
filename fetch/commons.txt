@@ -26,3 +26,16 @@ memphis	Memphis Tennessee skyline
 pawnee-ne	Pawnee County Nebraska
 nebraska-farm	Nebraska farmland
 new-house	new construction house suburban
+elkins-wv	Elkins West Virginia
+louisville	Louisville Kentucky skyline
+chicago	Chicago skyline
+texarkana	Texarkana State Line Avenue
+anchorage	Anchorage Alaska
+alaska-mountains	Alaska mountains Chugach
+harpers-ferry	Harpers Ferry West Virginia
+martinsburg-wv	Martinsburg West Virginia
+cumberland-md	Cumberland Maryland
+gap-trail	Great Allegheny Passage trail
+co-canal	C&O Canal towpath
+los-angeles	Los Angeles freeway traffic
+noblesville-square	Noblesville Indiana courthouse square
