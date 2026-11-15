@@ -52,4 +52,4 @@ jobs:
       - name: Commit
         run: |
           git config user.name "media-fetch"; git config user.email "hello@slowersundays.com"
-          git add assets; git diff --cached --quiet || git commit -m "Commons candidates"; git push
+          git add assets; git diff --cached --quiet || git commit -m "Commons candidates"; git pull --rebase -X ours -q || true; git push
