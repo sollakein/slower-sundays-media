@@ -14,3 +14,11 @@ assets/w2/audio/wed-pawnee.mp3
 assets/w2/audio/tue-tag.mp3
 assets/w2/audio/thu-tag.mp3
 assets/w2/audio/sat-tag.mp3
+assets/w3/audio/mon-matt.mp3
+assets/w3/audio/wed-alaska.mp3
+assets/w3/audio/fri-cynthia.mp3
+assets/w3/audio/sun-gathering.mp3
+assets/w4/audio/mon-chris.mp3
+assets/w4/audio/wed-texarkana.mp3
+assets/w4/audio/fri-ashley.mp3
+assets/w4/audio/sun-gap.mp3
