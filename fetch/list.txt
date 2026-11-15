@@ -37,3 +37,6 @@ https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/e3b5ae953b
 https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/59263e6c47724a1e848b16085bc43436/generate_speech_operation_554ce0272d17.mp3	assets/w1/audio/tue-tag.mp3
 https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/da8344d90d95488a9f54db303f6d83f7/generate_speech_operation_60902889e589.mp3	assets/w1/audio/thu-tag.mp3
 https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/85efd007283f47a7aa173d83b1d42236/generate_speech_operation_eee709f12946.mp3	assets/w1/audio/sat-tag.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/ba9482b7b1794079a68b3bb0986878f7/generate_speech_operation_d30e01bccd13.mp3	assets/w2/audio/mon-elena.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/45a635868a1547f4988a971003c3ccb2/generate_speech_operation_9ab737450341.mp3	assets/w2/audio/fri-chipper.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/fa083c7527ba4d59a0031ab718578b5e/generate_speech_operation_d0936810180b.mp3	assets/w2/audio/sun-razorback.mp3

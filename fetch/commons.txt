@@ -10,3 +10,15 @@ muncie-house	Muncie Indiana house street
 greenbrier-trail	Greenbrier River Trail
 greenbrier-river	Greenbrier River West Virginia
 marlinton	Marlinton West Virginia
+san-diego	San Diego skyline
+jacksonville-il	Jacksonville Illinois
+fairmont-wv	Fairmont West Virginia
+morgantown-wv	Morgantown West Virginia
+razorback-greenway	Razorback Regional Greenway
+bentonville-square	Bentonville Arkansas square
+fayetteville-ar	Fayetteville Arkansas Dickson Street
+pawnee-city	Pawnee City Nebraska
+cedar-rapids	Cedar Rapids Iowa downtown
+noblesville	Noblesville Indiana courthouse square
+jasper-in	Jasper Indiana
+memphis	Memphis Tennessee skyline
