@@ -23,3 +23,6 @@ noblesville	Noblesville Indiana courthouse square
 jasper-in	Jasper Indiana
 memphis	Memphis Tennessee skyline
 # rerun 1794711607
+pawnee-ne	Pawnee County Nebraska
+nebraska-farm	Nebraska farmland
+new-house	new construction house suburban
