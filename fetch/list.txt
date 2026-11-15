@@ -50,3 +50,11 @@ https://fred.stlouisfed.org/data/MEDLISPRI45500.txt	assets/data/fred-medlispri-t
 https://fred.stlouisfed.org/data/MEDLISPRI25180.txt	assets/data/fred-medlispri-hagerstown-martinsburg.txt
 https://fred.stlouisfed.org/data/MEDLISPRI11260.txt	assets/data/fred-medlispri-anchorage.txt
 https://fred.stlouisfed.org/data/MEDLISPRI19740.txt	assets/data/fred-medlispri-denver.txt
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/4225c6a3b81e40df8393d97ac5828346/generate_speech_operation_16f6ec9a0c69.mp3	assets/w3/audio/mon-matt.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/0fabf314388647358a75f6c2c41d2089/generate_speech_operation_ef790cd66b77.mp3	assets/w3/audio/wed-alaska.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/5238c2fabffc4ebaba1117066b070217/generate_speech_operation_1a2addc470b9.mp3	assets/w3/audio/fri-cynthia.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/2dbb410f852a4420bf3122119ae99033/generate_speech_operation_38f85ee7f3f6.mp3	assets/w3/audio/sun-gathering.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/911a7f5e90704607b5d84b1a8bf044e5/generate_speech_operation_068f0fba7f7e.mp3	assets/w4/audio/mon-chris.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/c733bb48ecc1476f812d85417b189199/generate_speech_operation_1c5d7730b097.mp3	assets/w4/audio/wed-texarkana.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/95766351868c40e0bbc31c46b159eeb5/generate_speech_operation_cb20abfa2849.mp3	assets/w4/audio/fri-ashley.mp3
+https://cdn.tryatria.com/agent_files/7449114ec52c4c238240aae1caec1f5c/8e6d99818dc4405cba9e6758df58f083/generate_speech_operation_3c3cf1f70673.mp3	assets/w4/audio/sun-gap.mp3
