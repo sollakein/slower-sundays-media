@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
       - name: Search Wikimedia Commons and download candidates with license metadata
         run: |
           python3 - <<'PY'
@@ -52,4 +53,4 @@ jobs:
       - name: Commit
         run: |
           git config user.name "media-fetch"; git config user.email "hello@slowersundays.com"
-          git add assets; git diff --cached --quiet || git commit -m "Commons candidates"; git pull --rebase -X ours -q || true; git push
+          git add assets; git diff --cached --quiet || git commit -m "Commons candidates"; for i in 1 2 3 4; do git pull --rebase -X ours -q && git push && break; sleep $((i*5)); done

@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
       - uses: actions/setup-python@v5
         with: {python-version: "3.11"}
       - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
@@ -35,5 +36,4 @@ jobs:
           git config user.email "hello@slowersundays.com"
           git add assets
           git diff --cached --quiet || git commit -m "Transcribe audio from transcribe/list.txt"
-          git pull --rebase -X ours -q || true
-          git push
+          for i in 1 2 3 4; do git pull --rebase -X ours -q && git push && break; sleep $((i*5)); done

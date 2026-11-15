@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
       - name: Download each file in fetch/list.txt (one "url<TAB>path" per line)
         run: |
           set -e
@@ -30,5 +31,4 @@ jobs:
           git config user.email "hello@slowersundays.com"
           git add assets
           git diff --cached --quiet || git commit -m "Fetch media from fetch/list.txt"
-          git pull --rebase -X ours -q || true
-          git push
+          for i in 1 2 3 4; do git pull --rebase -X ours -q && git push && break; sleep $((i*5)); done
