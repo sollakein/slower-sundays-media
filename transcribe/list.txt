@@ -10,3 +10,7 @@ assets/w1/audio/sat-tag.mp3
 assets/w2/audio/mon-elena.mp3
 assets/w2/audio/fri-chipper.mp3
 assets/w2/audio/sun-razorback.mp3
+assets/w2/audio/wed-pawnee.mp3
+assets/w2/audio/tue-tag.mp3
+assets/w2/audio/thu-tag.mp3
+assets/w2/audio/sat-tag.mp3
